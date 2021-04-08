@@ -1,0 +1,200 @@
+.gold_box, .royal_bx, .bronze_box{
+      
+      width: 67px;
+      height: 67px;
+      border-radius: 50%;
+    }
+    .gold_box{
+      background: #d31807;
+    }
+    .bronze_box{
+      border:3px solid #d31807;
+    }
+    .royal_bx{
+      background: #25a48f;
+      border:3px solid #d31807;
+    }
+    .bottom_group .media{
+      margin-bottom: 14px;
+    }
+    .bottom_group .media-body{
+      padding-top: 15px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #000;
+    }
+    .bottom_group .card{
+      border:0;
+    }
+    .bottom_group .card-group{
+      border: 1px solid rgb(0,0,0);
+      background: transparent;
+    }
+    .bottom_group .card-block{
+      padding:30px 0;
+    }
+    .bottom_group{
+      margin-top: 30px;
+    }
+    .list-group-item{
+      border:0;
+      padding:5px 0;
+      font-weight: bold;
+    }
+    .badge{
+      color: #000;
+      font-size: 14px;
+    }
+    .member_ship .card{
+      border-color: transparent;
+    }
+    .member_ship .card-block{
+      padding:0 15px;
+    }
+    .member_ship .card-header{
+      color: #fff;
+      border-radius: 0;
+      background: #d41908;
+    }
+    .left_col, .right_col{
+      margin-bottom: 15px;
+    }
+    .left_col a.btn, .right_col a{
+      background: #c0c0c0;
+      border-radius: 0;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .wrapper{
+      background: #f4f4f6;
+      padding-bottom: 150px;
+    }
+    .skin-red-light .wrapper{
+      background: #f4f4f6;
+    }
+    .network_title{
+      margin-top: 50px;
+      margin-bottom: 55px;
+      font-weight: bold;
+      font-size: 1.75rem;
+      color: #000;
+    }
+    *, *:before, *:after {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+    }
+    .tree-structure .tree{
+      margin-top: 50px;
+    }
+    .tree-structure .tree a[href=""] {
+      cursor: default;
+    }
+    .tree-structure .tree ul {
+      position: relative;
+      padding: 1em 0;
+      white-space: nowrap;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: -5px;
+    }
+    .tree-structure .tree ul:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    .tree-structure .tree ul ul:before {
+      content: '';
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      border-left: 1px solid #99999b;
+      width: 0;
+      height: 1em;
+    }
+    .tree-structure .tree ul li {
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      list-style-type: none;
+      position: relative;
+      padding: 1em 0.5em 0;
+      margin-left: -0.25em;
+      margin-right: -0.25em;
+    }
+    .tree-structure .tree ul li:before, .tree-structure .tree ul li:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 50%;
+      border-top: 1px solid #99999b;
+      width: 50%;
+      height: 1em;
+    }
+    .tree-structure .tree ul li:after {
+      right: auto;
+      left: 50%;
+      border-left: 1px solid #99999b;
+    }
+    .tree-structure .tree ul li:only-child:after, .tree-structure .tree ul li:only-child:before {
+      display: none;
+    }
+    .tree-structure .tree ul li:only-child {
+      padding-top: 0;
+    }
+    .tree-structure .tree ul li:first-child:before, .tree-structure .tree ul li:last-child:after {
+      border: 0 none;
+    }
+    .tree-structure .tree ul li:last-child:before {
+      border-right: 1px solid #99999b;
+      /*border-radius: 0 1em 0 0;*/
+    }
+    .tree-structure .tree ul li:first-child:after {
+      /*border-radius: 1em 0 0 0;*/
+    }
+    .tree-structure .tree ul li a {
+      padding: 0.75em;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 1em;
+      color: #333;
+      position: relative;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #d8d8d8;
+    }
+    .tree-structure .tree > ul > li:first-child > a{
+      background: #d91600
+    }
+    .tree-structure .tree .sibling{
+      border:3px solid #d91600;
+      background: #fff;
+    }
+.pl-60{
+  padding-left: 10%;
+}
+.pr-60{
+  padding-right: 10%;
+}
+.pd-30{
+  padding:0 60px;
+}
+.bottom_group .card{
+  background: transparent;
+}
+.skin-red-light .sidebar-menu > li.active > a{
+    background: #1e88e5;
+
+}
+.content-header>h1, .content-header>.container>h1{
+  text-transform: uppercase;
+  color: #000;font-size: 20px;
+}
+.user-profile a{
+  text-align: center;
+}
+.profile_txt{
+  font-weight: bold;
+  font-size: 18px;
+}

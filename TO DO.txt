@@ -1,0 +1,18 @@
+
+Anjum Metal: 
+1.Raw Material Input (send to ind)
+2.Finish Good input (out to ind and stock)
+
+3. sell finish good
+4. payment entry
+5. receive reject goods from buyer and adjust as a payment in to his account comment
+
+6. selling product has fixed weight
+
+
+7. admin can review any chalan -> edit, verify. 
+8. admin can receive payment from buyer
+9. can edit invoice
+10. can manage product category and product
+
+
